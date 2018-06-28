@@ -1,0 +1,31 @@
+
+
+spring:
+  dubbo:
+    application:
+      name: demo-provider
+    base-package: com.cloud.service
+    registry:
+      address: 127.0.0.1
+      port: 2181
+    protocol:
+      name: dubbo
+      serialization: hessian2
+    provider:
+      retries: 0
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/ftdm?useUnicode=true&characterEncoding=utf8
+
+
+server:
+  port: 8181
+
+
+mybatis:
+        typeAliasesPackage: service.model
+        mapperLocations: classpath:/mapper/*.xml
+        configLocation: classpath:/mybatis/mybatis-config.xml
+

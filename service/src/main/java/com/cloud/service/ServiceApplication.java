@@ -1,12 +1,12 @@
-package com.cloud.gateway;
+package com.cloud.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LoanApplication {
+public class ServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LoanApplication.class, args);
+        SpringApplication.run(ServiceApplication.class, args);
     }
 }

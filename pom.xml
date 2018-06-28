@@ -11,6 +11,12 @@
     <name>loan</name>
     <description>spring boot bank loan project</description>
 
+    <modules>
+        <module>discovery</module>
+        <module>service</module>
+        <module>gateway</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

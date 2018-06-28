@@ -1,7 +1,7 @@
 
 
 spring:
-  dubbo: 
+  dubbo:
     application:
       name: demo-provider
     base-package: com.test.dubbo.provider  # dubbo服务发布者所在的包
